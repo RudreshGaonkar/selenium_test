@@ -5,11 +5,6 @@ function sendData()
     var password = document.getElementById('passwordInput').value;
 
 
-
-    document.querySelector('.name').innerHTML = `Name : ${name}`;
-    document.querySelector('.email').innerHTML = `Email : ${email}`;
-    document.querySelector('.password').innerHTML = `Password : ${password}`;
-
-    window.location.href = "page2.html";
+    alert(`Name : ${name}\nEmail : ${email}\n`);
 
 }
