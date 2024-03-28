@@ -10,4 +10,6 @@ function sendData()
     document.querySelector('.email').innerHTML = `Email : ${email}`;
     document.querySelector('.password').innerHTML = `Password : ${password}`;
 
+    window.location.href = "page2.html";
+
 }
